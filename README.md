@@ -18,13 +18,3 @@ How to Start
 ============
 
 Start editing with report.tex and follow the instructions given there.
-
-Revision History
-================
-
-### Version 2
-1. Changed base template to a technical project report.
-2. Added example for inserting an image.
-
-### Version 1
-1. Contains all required pages for a complete report.
