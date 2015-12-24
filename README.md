@@ -1,13 +1,13 @@
-Master Project Report LaTeX Template
----------------------------------
+# Institute for Systems and Robotics (ISR-Lisboa)
+## Project Report LaTeX Template
 
 Abstracted from a Major Project Report at [ISR](http://welcome.isr.tecnico.ulisboa.pt/), [IST](http://tecnico.ulisboa.pt/) - [Universidade de Lisboa](http://ulisboa.pt/) but can be modified easily to use for other reports also.
 
 ### Created by
 
 [Francisco Maria Calisto](http://web.tecnico.ulisboa.pt/francisco.calisto/ "Francisco's Academic Profile")  
-DEI  
-ISR, IST - ULisboa  
+[DEI](https://fenix.tecnico.ulisboa.pt/departamentos/dei/o-dei)  
+[ISR](http://welcome.isr.tecnico.ulisboa.pt/), [IST](http://tecnico.ulisboa.pt/) - [ULisboa](http://ulisboa.pt/)
 Contact Info: [francisco.calisto@tecnico.ulisboa.pt](francisco.calisto@tecnico.ulisboa.pt)
 
 It is advisable to learn the basics of LaTeX before using this template.
