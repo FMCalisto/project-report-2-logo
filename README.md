@@ -1,7 +1,7 @@
 # Institute for Systems and Robotics (ISR-Lisboa)
 ## Project Report LaTeX Template
 
-Abstracted from a Major Project Report at [ISR](http://welcome.isr.tecnico.ulisboa.pt/), [IST](http://tecnico.ulisboa.pt/) - [Universidade de Lisboa](http://ulisboa.pt/) but can be modified easily to use for other reports also.
+Abstracted from a Project Report at [ISR](http://welcome.isr.tecnico.ulisboa.pt/), [IST](http://tecnico.ulisboa.pt/) - [Universidade de Lisboa](http://ulisboa.pt/) but can be modified easily to use for other reports also.
 
 ### Created by
 
