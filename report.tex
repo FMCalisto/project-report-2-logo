@@ -37,6 +37,7 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
+\usepackage{subcaption}
 
 \begin{document}
 
@@ -50,17 +51,22 @@
 %	HEADING SECTIONS
 %----------------------------------------------------------------------------------------
 
-\textsc{\LARGE Instituto Superior T\'{e}cnico}\\[1.5cm] % Name of your university/college
-\textsc{\Large ISR}\\[0.5cm] % Major heading such as course name
-\textsc{\large Report}\\[0.5cm] % Minor heading such as course title
+% Name of your university/college
+\textsc{\LARGE Instituto Superior T\'{e}cnico}\\[1.5cm]
+% Major heading such as course name
+\textsc{\Large ISR}\\[0.5cm]
+% First Minor heading such as course title
+\textsc{\large Report}\\[0.25cm]
+% Second Minor heading such as course title
+\textsc{\small Milestone}\\[0.25cm]
 
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
 
-\HRule \\[0.2cm]
-{ \huge \bfseries Title}\\[0.2cm] % Title of your document
-\HRule \\[0.2cm]
+\HRule \\[0.5cm]
+{ \large \bfseries Title}\\[0.25cm] % Title of your document
+\HRule \\[0.5cm]
  
 %----------------------------------------------------------------------------------------
 %	AUTHOR SECTION
@@ -99,7 +105,9 @@ Professor Jacinto \textsc{Peixoto} % Coordinator's Name
 %	LOGO SECTION
 %----------------------------------------------------------------------------------------
 
-\includegraphics{logo.png}\\[1cm] % Include a department/university logo - this will require the graphicx package
+\includegraphics{ist-logo.png}\\[0.5cm] % Include a department/university logo - this will require the graphicx package
+
+\includegraphics{isr-logo.png}\\[0.5cm] % Include a department/university logo - this will require the graphicx package
  
 %----------------------------------------------------------------------------------------
 
@@ -107,72 +115,42 @@ Professor Jacinto \textsc{Peixoto} % Coordinator's Name
 
 \end{titlepage}
 
-
-\begin{abstract}
-Your abstract.
-\end{abstract}
-
 \section{Introduction}
 
-Your introduction goes here! Some examples of commonly used commands and features are listed below, to help you get started.
+Lorem ipsum dolor sit amet, id qui discere postulant. Et homero omittantur vix, sed ad vide laoreet convenire. Sit te constituam liberavisse, sed tollit putent ne. Ea magna partiendo qui, sed cu purto graeco singulis, te sea dicam placerat. Cu dolor delenit sea, quo sanctus vulputate in.
 
-If you have a question, please use the support box in the bottom right of the screen to get in touch. 
-
-\section{Some \LaTeX{} Examples}
+\section{Section 1}
 \label{sec:examples}
 
-\subsection{Sections}
+\subsection{Subsection 1}
 
-Use section and subsection commands to organize your document. \LaTeX{} handles all the formatting and numbering automatically. Use ref and label commands for cross-references.
-
-\subsection{Comments}
-
-Comments can be added to the margins of the document using the \todo{Here's a comment in the margin!} todo command, as shown in the example on the right. You can also add inline comments too:
-
-\todo[inline, color=green!40]{This is an inline comment.}
-
-\subsection{Tables and Figures}
-
-Use the table and tabular commands for basic tables --- see Table~\ref{tab:widgets}, for example. You can upload a figure (JPEG, PNG or PDF) using the files menu. To include it in your document, use the includegraphics command as in the code for Figure~\ref{fig:frog} below.
+Virtute accusam ex mei, brute detracto dignissim mea ei. Persius diceret referrentur no quo. Summo aperiam vis ne, populo probatus intellegebat id eos, sed dicta libris in. At nec errem docendi deserunt, an efficiantur conclusionemque sit. Cu nam erroribus reformidans neglegentur. In eum sale dicat accusata, sit in aliquam voluptua, in veri adipisci volutpat eum.
 
 % Commands to include a figure:
-\begin{figure}
+\begin{figure}[!hbt]
 \centering
 \includegraphics[width=0.5\textwidth]{frog.jpg}
-\caption{\label{fig:frog}This is a figure caption.}
+\caption{\label{fig:frog}NueMD 4.0}
 \end{figure}
 
-\begin{table}
+Usu in doming intellegebat. Et illud accusamus vix, vix te latine platonem. Eu est laoreet debitis, te mel wisi legimus. Natum feugait expetendis quo in, ponderum molestiae cu eum.
+
+\subsection{Subsection 2}
+
+Vel augue democritum ad, ferri forensibus in sea. Eam graece docendi conceptam no. Per gloriatur intellegat cu, est neglegentur complectitur an. Causae repudiare vituperatoribus eam ea, cum vero idque ludus te, eirmod noluisse ut nam. Laudem nemore vel cu, sea ut idque voluptaria.
+
+% Commands to include a figure:
+\begin{figure}[!hbt]
 \centering
-\begin{tabular}{l|r}
-Item & Quantity \\\hline
-Widgets & 42 \\
-Gadgets & 13
-\end{tabular}
-\caption{\label{tab:widgets}An example table.}
-\end{table}
+\includegraphics[width=0.5\textwidth]{frog.jpg}
+\caption{\label{fig:frog}Frog 2}
+\end{figure}
 
-\subsection{Mathematics}
+Eam menandri assueverit et, omnesque probatus persecuti ut qui, ea quidam vocent scaevola usu. Imperdiet interesset ne nec, enim idque nullam quo te, nobis euismod vivendum ea sea. Ut sit eleifend appellantur, putant equidem accumsan ex pro, case utamur facilis mei cu. Debitis scaevola delicatissimi sit ex. Omnium sententiae ei quo.
 
-\LaTeX{} is great at typesetting mathematics. Let $X_1, X_2, \ldots, X_n$ be a sequence of independent and identically distributed random variables with $\text{E}[X_i] = \mu$ and $\text{Var}[X_i] = \sigma^2 < \infty$, and let
-$$S_n = \frac{X_1 + X_2 + \cdots + X_n}{n}
-      = \frac{1}{n}\sum_{i}^{n} X_i$$
-denote their mean. Then as $n$ approaches infinity, the random variables $\sqrt{n}(S_n - \mu)$ converge in distribution to a normal $\mathcal{N}(0, \sigma^2)$.
 
-\subsection{Lists}
+\section{Section 2}
 
-You can make lists with automatic numbering \dots
-
-\begin{enumerate}
-\item Like this,
-\item and like this.
-\end{enumerate}
-\dots or bullet points \dots
-\begin{itemize}
-\item Like this,
-\item and like this.
-\end{itemize}
-
-We hope you find write\LaTeX\ useful, and please let us know if you have any feedback using the help menu above.
+Lorem ipsum dolor sit amet, id qui discere postulant. Et homero omittantur vix, sed ad vide laoreet convenire. Sit te constituam liberavisse, sed tollit putent ne. Ea magna partiendo qui, sed cu purto graeco singulis, te sea dicam placerat. Cu dolor delenit sea, quo sanctus vulputate in.
 
 \end{document}
